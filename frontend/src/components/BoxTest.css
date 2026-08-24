@@ -1,0 +1,72 @@
+.style1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin: 18px 0;
+}
+
+.small-Box {
+    width: 200px;
+    height: 160px;
+    background-color: gainsboro;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+
+.small-Box img {
+    box-sizing: border-box;
+    width: 100px;
+}
+
+
+/* .style1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .small-Box {
+    width: 80px;
+    height: 80px;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+
+/* .style1 {
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    gap: 10px;
+  }
+  
+  .small-Box {
+    height: 80px;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+/* Best modern responsive Grid (recommended) */
+
+/* .style1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 10px;
+  }
+  
+  .small-Box {
+    height: 80px;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */

@@ -1,0 +1,21 @@
+.style1 {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    border-bottom: 1px solid gray;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.style2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+a {
+    border: 1px solid gainsboro;
+    text-decoration: none;
+    color: inherit;
+    padding: 6px 12px;
+}

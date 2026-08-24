@@ -1,0 +1,115 @@
+#root {
+  position: relative;
+  z-index: 1;
+  /* 👈 content above particles */
+}
+
+
+body {
+  background: transparent;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 14px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.search-input:focus {
+  /* outline: 1px solid green; */
+  outline: none;
+  box-shadow: 0 4px 20px rgba(0, 128, 0, 0.8);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: #fff;
+  padding: 14px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s;
+}
+
+.card:hover {
+  outline: 3px solid grey;
+}
+
+.status {
+  text-align: center;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+/* Pagination CSS */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  list-style: none;
+  margin-bottom: 40px;
+  gap: 8px;
+}
+
+.pagination li {
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination li a {
+  border-color: #3688d4;
+}
+
+.pagination li a:hover {
+  outline: 1px solid #3688d4;
+}
+
+.pagination .active {
+  background: #3688d4;
+}
+
+.myspan {
+  background-color: black;
+  color: white;
+  padding: 3px 9px;
+  border: 3px;
+}
+
+.linkStyle1 {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 0 6px gray;
+  width: 100px;
+}
+
+.linkStyle1:hover {
+  background-color: rgb(51, 46, 40);
+  color: white;
+}
