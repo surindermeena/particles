@@ -1,4 +1,4 @@
-# Project Name
+# Particles (React-Laravel Project)
 
 Short description of the project.
 
@@ -66,3 +66,8 @@ npm run dev
 ## Done
 
 The project should now be running locally.
+
+![Project Screenshot](https://github.com/surindermeena/particles/blob/main/img1.png)
+![Project Screenshot](https://github.com/surindermeena/particles/blob/main/img2.png)
+![Project Screenshot](https://github.com/surindermeena/particles/blob/main/img3.png)
+![Project Screenshot](https://github.com/surindermeena/particles/blob/main/img4.png)
